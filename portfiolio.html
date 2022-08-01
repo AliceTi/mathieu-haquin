@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="logopetit">
+        <img src="Projets image ok\logopetit.png" alt="logopetit">
+    </div>
+    <div id="titresession">
+        <h4>Portfolio</h4>
+    </div>
+
+    <div id="retourbouton">
+    <a href="Home page.html"> <img src="Projets image ok\bouton-retour.png" alt="retour"></a>
+    </div>
+
+</div>
+    <section id="projects">
+        <article id="projetteam1">
+            <figure>
+                <img src="Projets image ok\matmatah.png"/>
+                <figcaption>Vinyle Matmatah</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Projets image ok\lightpainting.png" alt="MBA / Light painting" />
+                <figcaption>Photos Lightpainting</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Projets image ok\bornrisque.png" alt="Borne risque"/>
+                <figcaption>Borne Risqué</figcaption>
+            </figure>
+        </article>
+
+        <article id="projetteam2">
+            <figure>
+                <img src="Projets image ok\cervoisedesancetres.png" alt="Craft Beer / Cervoise des ancetres"/>
+                <figcaption>Craft Beer / Cervoise des ancêtres</figcaption>
+            </figure>
+        
+            <figure>
+                <img src="Projets image ok\chaussure.png" alt="Mix chaussures"/>
+                <figcaption>Chaussures Univers</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Projets image ok\newyorker.png" alt="Couverture the New Yorker"/>
+                <figcaption>The New yorker / Couverture</figcaption>
+            </figure> 
+        </article>
+
+        <article id="projetteam3">
+            <figure>
+                <img src="Projets image ok\hermes.png" alt="hermes"/>
+                <figcaption>Campagne Hermès</figcaption>
+            </figure>
+        
+            <figure>
+                <img src="Projets image ok\trinitaine.png" alt="Boites trinitaine"/>
+                <figcaption>Boites Trinitaine</figcaption>
+            </figure>
+
+            <figure>
+                <video id="videofolio" loop="" autoplay="" muted=""><source src="Projets image ok/Haquin_Mathieu_Poisson.mp4"></video>
+                <figcaption>Animate Poisson</figcaption>
+            </figure> 
+        </article>
+
+        <article id="projetteam4">
+            <figure>
+                <video id="videofolio" loop="" autoplay="" muted=""><source src="Projets image ok/Motion du SPACE National.mp4"></video>
+                <figcaption>Village by CA</figcaption>
+            </figure> 
+        
+            <figure>
+                <video id="videofolio" loop="" autoplay="" muted=""><source src="Projets image ok/Nuit.mp4"></video>
+                <figcaption>Avatar filtre</figcaption>
+            </figure> 
+
+            <figure>
+                <video id="videofolio" loop="" autoplay="" muted=""><source src="Projets image ok/HAQUIN_Mathieu_G2B.mp4"></video>
+                <figcaption>Masque tribal</figcaption>
+            </figure> 
+        </article>
+    </section>
+
+    <main>
+        <div id="reseauxsociaux">
+            <div id="picto">
+                <a href="https://www.behance.net/mathieuhaquin"> <img src="Pictos\behance.png" alt="behance"></a>
+            </div>
+
+             <article id="picto">
+                <a href="https://www.instagram.com/mathieuh_h/"> <img src="Pictos\instagramm.png" alt="instagramm"></a>
+            </article>
+
+            <article id="pictp">
+                <a href="https://www.linkedin.com/in/mathieu-haquin-804b86193"> <img src="Pictos\linkedin.png" alt="linkedin"></a>
+            </article>
+         </div>
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+   
+    <script>
+        function myFunction() {
+            document.getElementById("button-control").style.color = "red";
+            
+            let video = document.getElementById("video-bg")
+            if (video.paused==true){
+                video.play();
+            }
+            else{
+                video.pause();
+            }
+        }
+    </script>
+
+    <script src="js.app.js"></script>
+</body>
+</html>

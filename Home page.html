@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Mathieu Haquin/M</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <video id="video-bg" loop="" autoplay="" muted=""><source src="Projets/j-ai-pense-mettre-des-bombes.mp4"></video>
+        <nav id="sections">
+            <ul>
+                <li>
+                    <a target="_blank" href="portfiolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a target="_blank" href="aproposdemoi.html">À propos de moi</a>
+                </li>
+                <li>
+                   <a target="_blank" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+            <div id="logo">
+                 <img src="Projets\cadrelogo.png" alt="logo">   
+                <br>
+                <br>
+            </div>
+
+            <div id="elementhomepage">
+                <h1>Mathieu Haquin</h1>
+                <br>
+                <h3>Motion designer / Concepteur graphique</h3>
+            </div>
+            
+             <button id="button-control" onclick="myFunction()">OFF</button>
+
+    </header>
+    
+    <main>
+            <div id="reseauxsociaux">
+                <div id="picto">
+                    <a href="https://www.behance.net/mathieuhaquin"> <img src="Pictos\behance.png" alt="behance"></a>
+                </div>
+
+                 <article id="picto">
+                    <a href="https://www.instagram.com/mathieuh_h/"> <img src="Pictos\instagramm.png" alt="instagramm"></a>
+                </article>
+
+                <article id="pictp">
+                    <a href="https://www.linkedin.com/in/mathieu-haquin-804b86193"> <img src="Pictos\linkedin.png" alt="linkedin"></a>
+                </article>
+             </div>
+    </main>
+
+    <script>
+        function myFunction() {
+            document.getElementById("button-control").style.color = "red";
+            
+            let video = document.getElementById("video-bg")
+            if (video.paused==true){
+                video.play();
+            }
+            else{
+                video.pause();
+            }
+        }
+    </script>
+</body>
+</html>
